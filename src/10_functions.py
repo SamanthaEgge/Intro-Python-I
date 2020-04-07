@@ -3,8 +3,10 @@
 # YOUR CODE HERE
 def checkEven(x):
   if x % 2 == 0:
+    print('Even!')
     return True
   else:
+    print('Odd3')
     return False
 
 # Read a number from the keyboard
@@ -14,5 +16,4 @@ num = int(num)
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 
 # YOUR CODE HERE
-x = 2
-# print(checkEven(2))
+checkEven(num)
