@@ -35,6 +35,8 @@ print("Distance is: {:.2f}".format(dist(a, b)))
 # Write a function `print_tuple` that prints all the values in a tuple
 
 # YOUR CODE HERE
+# stuck on trying to find length of something if it's only an int. Need some sort of check here to be like
+# is list vs "other"
 def print_tuple(x):
   if len(x) > 1:
     for tuplePieces in x:
